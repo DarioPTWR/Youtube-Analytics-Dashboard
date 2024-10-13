@@ -7,6 +7,8 @@ from helpers import process_results
 import pandas as pd
 # Import sys dependency to extract command line argument
 import sys
+# Import os
+import os
 
 # Define function to get hashtag dynamically
 def get_data(hashtag):
