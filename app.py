@@ -11,8 +11,8 @@ import os
 # Setting page configuration
 st.set_page_config(page_title='YouTube Analytics Dashboard', page_icon=':bar_chart:', layout='wide')
 
-api_key = os.getenv('RAPIDAPI_KEY')
-api_host = os.getenv('RAPIDAPI_HOST')
+api_key = st.secrets["RAPIDAPI_KEY"]
+api_host = st.secrets["RAPIDAPI_HOST"]
 
 if not api_key or not api_host:
     st.error("API key or host is missing. Please check your environment variables.")

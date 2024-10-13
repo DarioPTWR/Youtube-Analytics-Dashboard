@@ -8,14 +8,14 @@ import pandas as pd
 # Import sys dependency to extract command line argument
 import sys
 # Import os
-import os
+import streamlit as st
 
 # Define function to get hashtag dynamically
 def get_data(hashtag):
 
     # Get API key and host from environment variables
-    api_key = os.getenv('RAPIDAPI_KEY')
-    api_host = os.getenv('RAPIDAPI_HOST')
+    api_key = st.secrets["RAPIDAPI_KEY"]
+    api_host = st.secrets["RAPIDAPI_HOST"]
     
     # Define the URL for the API endpoint
     url = "https://yt-api.p.rapidapi.com/hashtag"
