@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/fe859c36-a14b-4c9d-914f-3a9acb8afd7a)
+
 # 📹 Youtube-Analytics-Dashboard
 This open-source project provides a comprehensive YouTube Analytics Dashboard built with Python and Streamlit. The YouTube Analytics Dashboard allows users & content creators to interactively explore and visualize data related to YouTube video performance and audience engagement.
 
